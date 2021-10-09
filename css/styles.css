@@ -103,30 +103,16 @@ body {
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
   color: var(--second-text-color);
-}
-.header-mail-link::before {
-  content: url(../images/letter.svg);
-  width: 16px;
-  height: 12px;
-  margin-right: 10px;
-}
-
-.header-tel-link::before {
-  content: url(../images/fon.svg);
-  width: 16px;
-  height: 10px;
-  margin-right: 10px;
-}
-
-.header-mail-link:hover .mail-telefon use,
-.header-mail-link:focus .mail-telefon use {
-  fill: #ffffff;
+  display: flex;
 }
 .header-mail-link:hover,
 .header-mail-link:focus {
   color: var(--fourth-text-color);
 }
 
+.span-mail {
+  margin-right: 10px;
+}
 .header-tel-link {
   font-weight: 500;
   font-size: 14px;
@@ -135,11 +121,18 @@ body {
   color: var(--second-text-color);
   margin-left: 52px;
 }
+.header-mail {
+  margin-right: 30px;
+}
+
 .header-tel-link:hover,
 .header-tel-link:focus {
   color: var(--fourth-text-color);
 }
-
+.header-tel-link::before {
+  content: url(../images/smartphone.svg);
+  margin-right: 10px;
+}
 /*------main frist page-------*/
 
 .main-first {
