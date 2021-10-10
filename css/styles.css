@@ -249,16 +249,16 @@ body {
 }
 
 .one-about {
-  background-image: url(../images/antena.svg);
+  background-image: url(../images/antenna1.svg);
 }
 .two-about {
-  background-image: url(../images/watch.svg);
+  background-image: url(../images/clock1.svg);
 }
 .three-about {
-  background-image: url(../images/pk.svg);
+  background-image: url(../images/diagram1.svg);
 }
 .four-about {
-  background-image: url(../images/man.svg);
+  background-image: url(../images/astronaut1.svg);
 }
 
 /*----sec3--------*/
@@ -344,22 +344,22 @@ body {
 }
 
 .one {
-  background-image: url(../images/instagram.svg);
+  background-image: url(../images/instagram2.svg);
   background-repeat: no-repeat;
   background-position: center;
 }
 .two {
-  background-image: url(../images/twitter.svg);
+  background-image: url(../images/twitter2.svg);
   background-repeat: no-repeat;
   background-position: center;
 }
 .three {
-  background-image: url(../images/facebook.svg);
+  background-image: url(../images/facebook2.svg);
   background-repeat: no-repeat;
   background-position: center;
 }
 .four {
-  background-image: url(../images/linkedin.svg);
+  background-image: url(../images/linkedin2.svg);
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -399,37 +399,37 @@ body {
   width: 106px;
   height: 60px;
   background-repeat: no-repeat;
-  background-image: url(../images/list1.svg);
+  background-image: url(../images/sec4-1.svg);
 }
 .two-svg {
   width: 106px;
   height: 60px;
   background-repeat: no-repeat;
-  background-image: url(../images/list2.svg);
+  background-image: url(../images/sec4-2.svg);
 }
 .three-svg {
   width: 106px;
   height: 60px;
   background-repeat: no-repeat;
-  background-image: url(../images/list3.svg);
+  background-image: url(../images/sec4-3.svg);
 }
 .four-svg {
   width: 106px;
   height: 60px;
   background-repeat: no-repeat;
-  background-image: url(../images/list4.svg);
+  background-image: url(../images/sec4-4.svg);
 }
 .five-svg {
   width: 106px;
   height: 60px;
   background-repeat: no-repeat;
-  background-image: url(../images/list5.svg);
+  background-image: url(../images/sec4-5.svg);
 }
 .six-svg {
   width: 106px;
   height: 60px;
   background-repeat: no-repeat;
-  background-image: url(../images/list6.svg);
+  background-image: url(../images/sec4-6.svg);
 }
 /*--------footer--------*/
 
@@ -497,16 +497,16 @@ body {
   background: var(--fourth-text-color);
 }
 .footer-social-one {
-  background-image: url(../images/instagram2.svg);
+  background-image: url(../images/instagram3.svg);
 }
 .footer-social-two {
-  background-image: url(../images/twitter2.svg);
+  background-image: url(../images/twitter3.svg);
 }
 .footer-social-three {
-  background-image: url(../images/facebook2.svg);
+  background-image: url(../images/facebook3.svg);
 }
 .footer-social-four {
-  background-image: url(../images/linkedin2.svg);
+  background-image: url(../images/linkedin3.svg);
 }
 
 /*------main second page------*/
