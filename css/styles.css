@@ -357,42 +357,12 @@ body {
   margin-right: 30px;
   padding: 16px 32px 16px 32px;
 }
-.one-svg {
+.sec-four-svg {
   width: 106px;
   height: 60px;
   background-repeat: no-repeat;
-  background-image: url(../images/sec4-1.svg);
 }
-.two-svg {
-  width: 106px;
-  height: 60px;
-  background-repeat: no-repeat;
-  background-image: url(../images/sec4-2.svg);
-}
-.three-svg {
-  width: 106px;
-  height: 60px;
-  background-repeat: no-repeat;
-  background-image: url(../images/sec4-3.svg);
-}
-.four-svg {
-  width: 106px;
-  height: 60px;
-  background-repeat: no-repeat;
-  background-image: url(../images/sec4-4.svg);
-}
-.five-svg {
-  width: 106px;
-  height: 60px;
-  background-repeat: no-repeat;
-  background-image: url(../images/sec4-5.svg);
-}
-.six-svg {
-  width: 106px;
-  height: 60px;
-  background-repeat: no-repeat;
-  background-image: url(../images/sec4-6.svg);
-}
+
 /*--------footer--------*/
 
 .footer-page {
