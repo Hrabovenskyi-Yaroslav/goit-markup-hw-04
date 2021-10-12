@@ -110,9 +110,6 @@ body {
   color: var(--fourth-text-color);
 }
 
-.span-mail {
-  margin-right: 10px;
-}
 .header-tel-link {
   font-weight: 500;
   font-size: 14px;
@@ -129,10 +126,7 @@ body {
 .header-tel-link:focus {
   color: var(--fourth-text-color);
 }
-.header-tel-link::before {
-  content: url(../images/smartphone.svg);
-  margin-right: 10px;
-}
+
 /*------main frist page-------*/
 
 .main-first {
@@ -239,26 +233,13 @@ body {
 .img-sec-two {
   margin-right: 30px;
 }
-.icon-about {
+.svg-sec2 {
   width: 270px;
   height: 120px;
   background: var(--fourth-title-color);
   margin-bottom: 30px;
   background-repeat: no-repeat;
   background-position: center;
-}
-
-.one-about {
-  background-image: url(../images/antenna1.svg);
-}
-.two-about {
-  background-image: url(../images/clock1.svg);
-}
-.three-about {
-  background-image: url(../images/diagram1.svg);
-}
-.four-about {
-  background-image: url(../images/astronaut1.svg);
 }
 
 /*----sec3--------*/
@@ -327,6 +308,7 @@ body {
   border-radius: 50%;
   background: var(--primary-title-color);
   display: flex;
+  background-repeat: no-repeat;
   align-items: center;
   justify-content: center;
 }
@@ -341,27 +323,7 @@ body {
 .social-icon {
   width: 20px;
   height: 20px;
-}
-
-.one {
-  background-image: url(../images/instagram2.svg);
   background-repeat: no-repeat;
-  background-position: center;
-}
-.two {
-  background-image: url(../images/twitter2.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-}
-.three {
-  background-image: url(../images/facebook2.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-}
-.four {
-  background-image: url(../images/linkedin2.svg);
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
 /*-------sec4--------*/
@@ -495,18 +457,6 @@ body {
 .footer-link-two:focus,
 .footer-link-two:hover {
   background: var(--fourth-text-color);
-}
-.footer-social-one {
-  background-image: url(../images/instagram3.svg);
-}
-.footer-social-two {
-  background-image: url(../images/twitter3.svg);
-}
-.footer-social-three {
-  background-image: url(../images/facebook3.svg);
-}
-.footer-social-four {
-  background-image: url(../images/linkedin3.svg);
 }
 
 /*------main second page------*/
