@@ -108,6 +108,7 @@ body {
 .header-mail-link:hover,
 .header-mail-link:focus {
   color: var(--fourth-text-color);
+  fill: var(--fourth-text-color);
 }
 
 .header-tel-link {
@@ -125,6 +126,10 @@ body {
 .header-tel-link:hover,
 .header-tel-link:focus {
   color: var(--fourth-text-color);
+  fill: var(--fourth-text-color);
+}
+.svg-header {
+  margin-right: 10px;
 }
 
 /*------main frist page-------*/
@@ -315,10 +320,7 @@ body {
 .social-link:focus,
 .social-link:hover {
   background: var(--fourth-text-color);
-}
-.social-link:focus .one,
-.social-link:hover .one {
-  fill: #ffffff;
+  fill: var(--primary-title-color);
 }
 .social-icon {
   width: 20px;
@@ -362,7 +364,14 @@ body {
   height: 60px;
   background-repeat: no-repeat;
 }
-
+.li-sec-four:hover {
+  border: 1px solid var(--fourth-text-color);
+  border-radius: 4px;
+}
+.sec-four-svg:hover {
+  background-color: var(--primary-title-color);
+  fill: var(--fourth-text-color);
+}
 /*--------footer--------*/
 
 .footer-page {
@@ -419,8 +428,9 @@ body {
   display: flex;
 }
 .footer {
-  width: 44px;
-  height: 44px;
+  fill: var(--primary-title-color);
+  width: 20px;
+  height: 20px;
   background-position: center;
   background-repeat: no-repeat;
 }
